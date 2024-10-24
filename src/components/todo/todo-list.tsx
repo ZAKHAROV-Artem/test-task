@@ -1,6 +1,6 @@
 "use client";
 
-import { Todo, TodoStatus } from "@/app/types/todo";
+import { Todo, TodoStatus } from "@/types/todo";
 import TodoItem from "./todo-item";
 import { useState, useMemo } from "react";
 

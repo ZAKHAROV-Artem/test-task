@@ -1,4 +1,4 @@
-import { Todo } from "@/app/types/todo";
+import { Todo } from "@/types/todo";
 
 type TodoItemProps = {
   todo: Todo;
