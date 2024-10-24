@@ -26,8 +26,8 @@ export default function TodoList() {
 
   const createTodo = () => {
     if (!title.trim()) return;
-    setTodos([
-      ...todos,
+    setTodos((prev) => [
+      ...prev,
       {
         id: Date.now(),
         title: title.trim(),
